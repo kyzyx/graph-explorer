@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title> Sample Graph Explorer </title>
+    <link rel='stylesheet' type='text/css' href='css/ge.css'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js'></script>
+    <script src='jquery.ba-throttle-debounce.min.js'></script>
+    <script src='ge-render.js'></script>
+    <script src='ge-manager.js'></script>
+    <script type='text/javascript'>
+        $(document).ready(function() {
+            var sys = GE();
+            var layout = Renderer();
+            sys.setLayout(layout);
+            // TODO: Add nodes
+    });
+    </script>
+    </head>
+    <body>
+    <div id="nodes">
+    </div>
+</body>
+</html>
